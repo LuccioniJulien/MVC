@@ -26,6 +26,6 @@ function listerJson()
     while ($row = $result->fetch_assoc()) {
         $Array[] = $row;
     }
-    include('./vue/jsonListeArticles.php');
+    include('./vue/jsonListeArticles-Affichage.php');
 }
 ?>
